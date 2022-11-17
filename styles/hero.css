@@ -1,0 +1,96 @@
+.hero {
+    width: 100%;
+    background: linear-gradient(to right, #33363E, #0A0B0C);
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 100px;
+}
+
+
+
+
+
+.hero > .hero-right > .screenshot {
+    margin-left: auto;
+}
+
+.hero > .hero-right > .screenshot img {
+    min-width: auto;
+    min-height: auto;
+    max-width: 600px;
+    right: 0px;
+    bottom: 4px;
+}
+
+.hero > .hero-right > .text-projects > p {
+    color: white;
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.hero > .hero-right > .text-projects > p > strong {
+    color: hsl(196deg 100% 73%);
+}
+
+
+
+
+
+
+
+.hero > .hero-left > .description > .description-up > p {
+    color: hsl(230deg 12% 80%);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 40px 80px 0px 68px;
+}
+
+
+.hero > .hero-left > .description > .description-up > p > strong {
+    color: hsl(0deg 0% 100%);
+}
+
+
+.hero > .hero-left > .description > .description-down > p {
+    color: hsl(230deg 12% 80%);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 35px 70px 0px 68px;
+}
+
+
+.hero > .hero-left > .others-btns {
+    display: flex;
+    grid-gap: 15px;
+    font-size: 2rem;
+    margin: 30px 30px 40px 68px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.hero > .hero-left > .others-btns > .sing-up-free > .sing-up-free-btn{
+    background-color: hsl(139deg 59% 55%);
+    color: black;
+    padding: 10px 16px;
+    margin:1px 10px 1px 0px;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 300px;
+    height: 72px;
+
+}
+
+.hero > .hero-left > .others-btns > .learn-more > .learn-more-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    margin:1px 10px 1px 0px;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 200px;
+    height: 72px;
+
+}

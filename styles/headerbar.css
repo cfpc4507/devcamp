@@ -1,0 +1,143 @@
+.headerbar {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 78px;
+    padding: 0px;
+}
+
+.headerbar > .logo-img img{
+    background-size: 138px 26px;
+    width: 150px;
+    height: 50%;
+    display: block;
+    margin: 18px 21px;
+}
+
+
+
+
+
+
+
+.headerbar > .explore-column {
+    display: column;
+    grid-gap: 6px;
+    width: 450px;
+    margin: 5px 25px;
+    font-weight: 900;
+}
+
+.headerbar > .explore-column > .links-wrapper {
+    display: flex;
+    grid-gap: 25px;
+    align-items: center;
+}
+
+.headerbar > .explore-column > .links-wrapper > .nav-link > a {
+    color: hsl(0deg 0% 100%);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.headerbar > .explore-column > .links-wrapper > .spark > .spark-btn {
+    background-color: transparent !important;
+    color: hsl(230deg 12% 80%);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin:1px 1px 1px 20px;
+}
+
+.headerbar > .explore-column > .links-wrapper > .spark > button::after {
+    font-family: "Font Awesome 5 Free";
+    content: "  \f107";
+    font-weight: 900;
+}
+
+.headerbar > .explore-column > .explore {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+.headerbar > .header-right {
+    display: flex;
+    grid-gap: 15px;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.headerbar > .header-right > .create {
+    width: 100px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+}
+
+
+.headerbar > .header-right > .create > button::after {
+    font-family: "Font Awesome 5 Free";
+    content: "  \f107";
+    font-weight: 900;
+    color: hsl(139deg 59% 55%);
+}
+
+
+
+.headerbar > .header-right > .create > .create-btn {
+    background-color: hsl(227deg 12% 30%);
+    color: white;
+    padding: 10px 5px;
+    border-width: 3px;
+    margin:1px 10px 1px 0px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+
+.headerbar > .header-right > .search-icon {
+    font-size: 1.6em;
+}
+
+
+
+
+.headerbar > .header-right > .usermenu {
+    display: flex;
+    align-items: center;
+}
+
+.headerbar > .header-right > .usermenu > .log-in-button > .log-in-btn {
+    background-color: hsl(227deg 12% 30%);
+    color: white;
+    padding: 10px 16px;
+    border-width: 3px;
+    margin:1px 10px 1px 0px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.headerbar > .header-right > .usermenu > .learn-more > .sing-up-btn {
+    background-color: hsl(227deg 12% 30%);
+    color: white;
+    padding: 10px 16px;
+    border-width: 3px;
+    margin:1px 10px 1px 0px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
